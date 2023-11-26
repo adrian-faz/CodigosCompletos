@@ -11,7 +11,7 @@ import pytz
 import tkinter as tk
 
 # Path to store facial encodings
-DEFAULT_ENCODINGS_PATH = Path("output/encodings.pkl")
+DEFAULT_ENCODINGS_PATH = Path("../output/encodings.pkl")
 
 # Set to keep track of names logged for today
 logged_today = set()
