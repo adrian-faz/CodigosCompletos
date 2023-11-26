@@ -9,7 +9,7 @@ import pickle
 import requests
 
 # Load face encodings from the file
-with open('/Users/adrian/Desktop/Tec/7mo Semestre/face_recognizer_v2/output/encodings.pkl', 'rb') as f:
+with open('../output/encodings.pkl', 'rb') as f:
     data = pickle.load(f)
 known_face_encodings = data['encodings']
 known_face_names = data['names']
